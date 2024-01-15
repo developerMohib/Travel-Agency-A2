@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --primary-color:#131318 ;
+    --secondary-color: rgba(19, 19, 24, 0.70);
+    --tarnery-color:#5A5A5D;
+    --fourty-color:#FF5400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.container{
+    margin: 0 5rem;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+
+/*----------------- Styling CSS -----------------*/
+
+header {
+    padding: 1.2rem;
+}
+header .container{
+    margin: 0 4rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-top: 6px;
+}
+.logo-text {
+    padding: 0 10px;
+}
+.header-left .logo-text a h2{
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 800;
+}
+.header-left .logo-text a h2 span{
+    color: var(--fourty-color);
+}
+.header-right label, #click{
+    display: none;
+    visibility: hidden;
+}
+.header-right ul {
+    display: flex;
+}
+.header-right ul li a {
+    padding: 10px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+.header-right ul li a.active{
+    color: var(--fourty-color);
+}
+.header-right ul li a:active{
+    color: var(--fourty-color);
+}
+.header-right ul li a:hover{
+    color: var(--fourty-color);
+}
+
+/*------------ Banner Section ------------*/
+
+.banner-text{
+    border-radius: 16px;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 15rem 0;
+    object-fit: cover;
+    text-align: center;
+}
+.banner-text h2{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-text p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+form > input, select{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px 20px;
+    border: none;
+}
