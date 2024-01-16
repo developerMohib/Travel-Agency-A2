@@ -192,7 +192,45 @@ input.primary-btn {
     width: 60%;
     margin: auto;
 }
-
+.place-picture{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 15px;
+}
+.desti-img{
+    position: relative;
+}
+.desti-img h1 {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    color: #fff;
+}
+.desti-img img{
+    height: 100%;
+}
+.maldives{
+    grid-column: 1 / 7;
+}
+.indonesia {
+    grid-column: 7 / 13;
+}
+.srilanka {
+    grid-column: 1 / 4;
+}
+.america {
+    grid-column: 4 / 9;
+}
+.kashmir {
+    grid-column: 9 / 13;
+    grid-row: 2 / 3;
+}
+.bangladesh {
+    grid-column: 1 / 6;
+}
+.bandorban {
+    grid-column: 6/ 13;
+}
 /* -------- Testominal or Why Choose Us ----- */
 
 #Testimonial {

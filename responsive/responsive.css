@@ -114,8 +114,21 @@
     .img-with-discount .offer h2 {
         font-size: 20px;
     }
-    
-
+    .satorini-img img {
+        height: 400px;
+    }
+    .author-text {
+        top: 20%;
+        right: 5%;
+        width: 90%;
+        padding: 1rem;
+    }
+    .satorini-2 .author-text {
+        top: 20%;
+        left: 5%;
+        width: 90%;
+        padding: 1rem;
+    }
 }
 
 
