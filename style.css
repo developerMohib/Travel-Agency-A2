@@ -243,9 +243,41 @@ form > input, select{
     font-weight: 400;
 }
 
-.satorini-1{
+.satorini-2{
+    margin: 30px 0px;
+}
+.satorini-2 .author-text {
+    position: absolute;
+    top: 14%;
+    left: 5%;
+    width: 50%;
     border-radius: 16px;
-    background: url(./images/Group39.png), lightgray 50% / cover no-repeat;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 3rem;
+}
+.satorini-img {
+    position: relative;
+}
+.satorini-img img {
+    height: 100%;
+}
+
+.author-text {
+    position: absolute;
+    top: 14%;
+    right: 5%;
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 3rem;
+}
+.author-text a > i{
+    color: var(--fourty-color);
+}
+.author-text .price{
+    color: var(--fourty-color);
 }
 
 /* Over-View */
