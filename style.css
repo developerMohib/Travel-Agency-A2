@@ -223,7 +223,6 @@ input.primary-btn {
 }
 .kashmir {
     grid-column: 9 / 13;
-    grid-row: 2 / 3;
 }
 .bangladesh {
     grid-column: 1 / 6;

@@ -129,6 +129,27 @@
         width: 90%;
         padding: 1rem;
     }
+    .maldives{
+        grid-column: 1 / -1;
+    }
+    .indonesia {
+        grid-column: 1 / -1;
+    }
+    .srilanka {
+        grid-column: 1 / -1;
+    }
+    .america {
+        grid-column: 1 / -1;
+    }
+    .kashmir {
+        grid-column: 1 / -1;
+    }
+    .bangladesh {
+        grid-column: 1 / -1;
+    }
+    .bandorban {
+        grid-column: 1 / -1;
+    }
 }
 
 
