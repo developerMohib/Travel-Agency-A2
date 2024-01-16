@@ -157,12 +157,11 @@
     }
     .satorini-img img {
         height: 400px;
-        width: auto;
     }
     .author-text, .satorini-2 .author-text {
-        top: 24%;
-        right: -3%;
-        width: 100%;
+        top: 20%;
+        right: 5%;
+        width: 90%;
         padding: 1rem;
     }
 

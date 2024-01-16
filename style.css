@@ -153,7 +153,9 @@ form > input, select{
     align-items: center;
     padding-left: 20px;
 }
-
+input.primary-btn {
+    margin-top: 0px;
+}
 /* Package Section ---------*/
 
 #Packages{
@@ -337,6 +339,7 @@ input[type="submit"] {
     background: #FF5400;
     color: #FFF;
     font-size: 1rem;
+    border: none;
 }
 .subscribe-img {
     width: 57%;
