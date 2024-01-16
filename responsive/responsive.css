@@ -97,6 +97,23 @@
         top: 20%;
         font-size: 1rem;
     }
+    
+    .subscribers {
+        flex-direction: column;
+    }
+    .subscribe-form {
+        width: 100%;
+        padding: 1rem;
+    }
+    .subscribe-img {
+        width: 100%;
+    }
+    .img-with-discount .offer h3 {
+        font-size: 14px;
+    }
+    .img-with-discount .offer h2 {
+        font-size: 20px;
+    }
 
 }
 
@@ -137,5 +154,6 @@
     .primary-btn {
         padding: 12px;
     }
+
 }
 
