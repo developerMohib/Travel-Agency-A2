@@ -49,7 +49,31 @@
     .btn {
         justify-content: center;
     }
+
+    .pack-content {
+        gap: 2rem;
+        flex-direction: column;
+    }
+    .pack-text {
+        width: 100%;
+    }
+    .pack-text h2 {
+        font-size: 2rem;
+    }
+    .pack-text ul li {
+        list-style-type: disc;
+        margin: 0rem 0rem 1rem 1rem;
+    }
+    .pack-text .primary-btn {
+        width: 50%;
+    }
+
 }
+
+
+
+
+
 
 @media screen and (max-width:576px) {
     .header-left .logo a img {
@@ -68,8 +92,15 @@
         margin-top: 5px;
     }
 
-    .banner-text p {
+    .banner-text p, .pack-text{
         padding: 0;
+    }
+
+    .pack-text h2 {
+        font-size: 1.2rem;
+    }
+    .primary-btn {
+        padding: 12px;
     }
 }
 
