@@ -1,5 +1,14 @@
 
 @media screen and (max-width:576px) {
+    header .container{
+        margin: 0 2rem;
+    }
+    .container{
+        margin: 0 3rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
     .header-right label{
         display: block;
         visibility: visible;
@@ -57,9 +66,6 @@
     .pack-text {
         width: 100%;
     }
-    .pack-text h2 {
-        font-size: 2rem;
-    }
     .pack-text ul li {
         list-style-type: disc;
         margin: 0rem 0rem 1rem 1rem;
@@ -67,6 +73,22 @@
     .pack-text .primary-btn {
         width: 50%;
     }
+    #Testimonial {
+        margin: 0rem ;
+    }
+    .choose-box {
+        flex-direction: column;
+    }
+    .box-3 {
+        width: 100%;
+    }
+    .card h3.title {
+        font-size: 1.2rem;
+    }
+    .card img {
+        width: 16%;
+    }
+
 
 }
 
@@ -75,7 +97,13 @@
 
 
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:425px) {
+    header .container{
+        margin: 0 1rem;
+    }
+    .container{
+        margin: 0 2rem;
+    }
     .header-left .logo a img {
         width: 80%;
     }
@@ -95,8 +123,7 @@
     .banner-text p, .pack-text{
         padding: 0;
     }
-
-    .pack-text h2 {
+    .title {
         font-size: 1.2rem;
     }
     .primary-btn {
