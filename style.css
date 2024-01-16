@@ -26,6 +26,13 @@ a{
 img{
     width: 100%;
 }
+.primary-btn{
+    background-color: var(--fourty-color);
+    border-radius: 5px;
+    color: #FFF;
+    padding: 20px;
+    border: none;
+}
 
 /*----------------- Styling CSS -----------------*/
 
@@ -81,7 +88,6 @@ nav {
 .header-right ul li a:hover{
     color: var(--fourty-color);
 }
-
 /*------------ Banner Section ------------*/
 
 .banner-text{
@@ -90,7 +96,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 15rem 0;
+    padding: 10rem 0;
     object-fit: cover;
     text-align: center;
 }
@@ -107,9 +113,29 @@ nav {
     padding: 2rem;
     margin: 0 auto;
 }
+.form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 1rem 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+.form form {
+    display: flex;
+}
 form > input, select{
     border-radius: 8px;
     background: #FFF;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border: none;
+    margin: 0 5px;
+    width: 25%;
+}
+.btn {
+    background-color: var(--fourty-color);
+    color: #FFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }

@@ -32,6 +32,23 @@
     input#click:checked ~ ul {
         visibility: visible;
     }
+
+    .banner-text h2 {
+        font-size: 2rem;
+    }
+    .banner-text {
+        padding: 3rem 0;
+    }
+    .form form {
+        flex-direction: column;
+    }
+    form > input, select {
+        margin: 5px 0px;
+        width: 100%;
+    }
+    .btn {
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -49,6 +66,10 @@
     }
     .header-right label {
         margin-top: 5px;
+    }
+
+    .banner-text p {
+        padding: 0;
     }
 }
 
