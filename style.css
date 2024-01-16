@@ -32,8 +32,9 @@ img{
     background-color: var(--fourty-color);
     border-radius: 5px;
     color: #FFF;
-    padding: 20px;
-    border: none;
+    padding:15px 20px;
+    display: inline-block;
+    margin-top: 1rem;
 }
 .title{
     color: var(--primary-color);
@@ -175,13 +176,7 @@ form > input, select{
     margin:0rem 0rem 1rem 2rem;
     color:var(--secondary-color);
 }
-.pack-text .primary-btn {
-    width: 25%;
-    text-align: center;
-}
-.pack-text .primary-btn a {
-    color: #fff;
-}
+
 .pack-img{
     margin-top: 1rem;
 }
@@ -246,4 +241,37 @@ form > input, select{
     color: var(--tarnery-color);
     font-size: 1rem;
     font-weight: 400;
+}
+
+.satorini-1{
+    border-radius: 16px;
+    background: url(./images/Group39.png), lightgray 50% / cover no-repeat;
+}
+
+/* Over-View */
+.Over-View-title{
+    font-size: 2.5rem;
+}
+.Over-View-list li{
+    color: var(--primary-color);
+}
+
+.pack-img video {
+    height: 360px;
+    width: 100%;
+}
+.for-video{
+    position: relative;
+}
+.for-video h2 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.80);
+    padding:5px;
+    border-radius: 5px;
 }

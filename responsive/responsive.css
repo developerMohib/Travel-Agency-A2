@@ -65,13 +65,14 @@
     }
     .pack-text {
         width: 100%;
+        padding: 0rem 1rem;
+    }
+    .pack-img {
+        margin-top: 0;
     }
     .pack-text ul li {
         list-style-type: disc;
         margin: 0rem 0rem 1rem 1rem;
-    }
-    .pack-text .primary-btn {
-        width: 50%;
     }
     #Testimonial {
         margin: 0rem ;
@@ -88,7 +89,14 @@
     .card img {
         width: 16%;
     }
-
+    .pack-img video {
+        height:auto;
+        width: 100%;
+    }
+    .for-video h2 {
+        top: 20%;
+        font-size: 1rem;
+    }
 
 }
 
