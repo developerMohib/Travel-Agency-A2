@@ -7,7 +7,9 @@
     --tarnery-color:#5A5A5D;
     --fourty-color:#FF5400;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
@@ -40,7 +42,10 @@ header {
     padding: 1.2rem;
 }
 header .container{
-    margin: 0 4rem;
+    margin: 0 1rem;
+}
+.container{
+    margin: 0 2rem;
 }
 nav {
     display: flex;
