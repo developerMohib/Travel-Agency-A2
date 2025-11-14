@@ -1,226 +1,189 @@
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 30px;
+  }
 
-@media screen and (max-width:576px) {
-    header .container{
-        margin: 0 2rem;
-    }
-    .container{
-        margin: 0 3rem;
-    }
-    .title {
-        font-size: 2rem;
-    }
-    .header-right label{
-        display: block;
-        visibility: visible;
-        margin-top: 12px;
-    }
-    .header-right label{
-        font-size: 25px;
-    }
-    .header-right input{
-        visibility: hidden;
-        display: none;
-    }
-    .header-right ul li {
-        text-align: center;
-        padding: 6px;
-    }
-    .header-right ul {
-        position: absolute;
-        top: 5rem;
-        left: 8%;
-        background: black;
-        visibility: hidden;
-        display: block;
-        width: 83%;
-        padding: 1rem;
-        border-radius: 5px;
-    }
-    .header-right ul li a {
-        color: #ededed;
-    }
-    input#click:checked ~ ul {
-        visibility: visible;
-    }
+  .title {
+    font-size: 2.2rem;
+  }
 
-    .banner-text h2 {
-        font-size: 2rem;
-    }
-    .banner-text {
-        padding: 3rem 0;
-    }
-    .form form {
-        flex-direction: column;
-    }
-    form > input, select {
-        margin: 5px 0px;
-        width: 100%;
-    }
-    .btn {
-        justify-content: center;
-    }
+  .banner-text h2 {
+    font-size: 2.5rem;
+  }
 
-    .pack-content {
-        gap: 2rem;
-        flex-direction: column;
-    }
-    .pack-text {
-        width: 100%;
-        padding: 0rem 1rem;
-    }
-    .pack-img {
-        margin-top: 0;
-    }
-    .pack-text ul li {
-        list-style-type: disc;
-        margin: 0rem 0rem 1rem 1rem;
-    }
-    #Testimonial {
-        margin: 0rem ;
-    }
-    .choose-box {
-        flex-direction: column;
-    }
-    .box-3 {
-        width: 100%;
-    }
-    .card h3.title {
-        font-size: 1.2rem;
-    }
-    .card img {
-        width: 16%;
-    }
-    .pack-img video {
-        height:auto;
-        width: 100%;
-    }
-    .for-video h2 {
-        top: 20%;
-        font-size: 1rem;
-    }
-    
-    .subscribers {
-        flex-direction: column;
-    }
-    .subscribe-form {
-        width: 100%;
-        padding: 1rem;
-    }
-    .subscribe-img {
-        width: 100%;
-    }
-    .img-with-discount .offer h3 {
-        font-size: 14px;
-    }
-    .img-with-discount .offer h2 {
-        font-size: 20px;
-    }
-    .satorini-img img {
-        height: 400px;
-    }
-    .author-text {
-        top: 20%;
-        right: 5%;
-        width: 90%;
-        padding: 1rem;
-    }
-    .satorini-2 .author-text {
-        top: 20%;
-        left: 5%;
-        width: 90%;
-        padding: 1rem;
-    }
-    .maldives{
-        grid-column: 1 / -1;
-    }
-    .indonesia {
-        grid-column: 1 / -1;
-    }
-    .srilanka {
-        grid-column: 1 / -1;
-    }
-    .america {
-        grid-column: 1 / -1;
-    }
-    .kashmir {
-        grid-column: 1 / -1;
-    }
-    .bangladesh {
-        grid-column: 1 / -1;
-    }
-    .bandorban {
-        grid-column: 1 / -1;
-    }
+  .form {
+    width: 90%;
+  }
+
+  .pack-content {
+    gap: 40px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
 
+  .header-right label {
+    display: block;
+    visibility: visible;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
 
+  .header-right input {
+    visibility: hidden;
+    display: none;
+  }
 
+  .header-right ul {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    background: var(--white);
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: var(--shadow);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 999;
+  }
 
+  .header-right ul li {
+    padding: 10px 0;
+  }
 
-@media screen and (max-width:425px) {
-    header .container{
-        margin: 0 1rem;
-    }
-    .container{
-        margin: 0 2rem;
-    }
-    .header-left .logo a img {
-        width: 80%;
-    }
-    .logo-text {
-        padding: 0 ;
-    }
-    .header-left .logo-text a h2 {
-        font-size: 22px;
-    }
-    .header-right label {
-        font-size: 20px;
-    }
-    .header-right label {
-        margin-top: 5px;
-    }
+  input#click:checked ~ ul {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
 
-    .banner-text p, .pack-text{
-        padding: 0;
-    }
-    .title {
-        font-size: 1.2rem;
-    }
-    .primary-btn {
-        padding: 12px;
-    }
-    .satorini-img img {
-        height: 400px;
-    }
-    .author-text, .satorini-2 .author-text {
-        top: 20%;
-        right: 5%;
-        width: 90%;
-        padding: 1rem;
-    }
+  .banner-text {
+    padding: 60px 20px;
+  }
 
-    .maldives{
-        grid-column: 1 / -1;
-    }
-    .indonesia {
-        grid-column: 1 / -1;
-    }
-    .srilanka {
-        grid-column: 1 / -1;
-    }
-    .america {
-        grid-column: 1 / -1;
-    }
-    .kashmir {
-        grid-column: 1 / -1;
-    }
-    .bangladesh {
-        grid-column: 1 / -1;
-    }
-    .bandorban {
-        grid-column: 1 / -1;
-    }
+  .banner-text h2 {
+    font-size: 2rem;
+  }
 
+  .banner-text p {
+    width: 90%;
+    font-size: 1rem;
+  }
+  #Packages {
+    padding: 40px 0;
+  }
+  .destination {
+    padding: 40px 0;
+  }
+  #Testimonial {
+    padding: 40px 0;
+  }
+  .discount {
+    padding: 40px 0;
+  }
+  .overview {
+    padding: 40px 0;
+}
+  .btn {
+    justify-content: space-between;
+  }
+  .form form {
+    flex-direction: column;
+  }
+
+  form > input,
+  select {
+    min-width: 100%;
+  }
+
+  .pack-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .choose-box {
+    flex-direction: column;
+  }
+
+  .discount-card,
+  .discount-card.reverse {
+    flex-direction: column;
+  }
+
+  .subscribers {
+    flex-direction: column;
+  }
+
+  .maldives,
+  .indonesia,
+  .srilanka,
+  .america,
+  .kashmir,
+  .bangladesh,
+  .bandorban {
+    grid-column: 1 / -1;
+  }
 }
 
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .banner-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .logo-text a h2 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .discount-info {
+    padding: 20px;
+  }
+
+  .price-section {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .img-with-discount .offer {
+    right: 10px;
+    bottom: 20px;
+    padding: 15px 10px;
+  }
+
+  .img-with-discount .offer h3 {
+    font-size: 1rem;
+  }
+
+  .img-with-discount .offer h2 {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  form > input,
+  select {
+    width: 100%;
+  }
+  .btn {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .glass.primary-btn {
+    width: 100%;
+  }
+}
